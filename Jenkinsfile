@@ -1,17 +1,7 @@
 pipeline {
     agent any
 
-    environment {
-        AWS_REGION = "us-east-1"
-    }
-
     stages {
-
-        stage('Clone Repo') {
-            steps {
-                git 'https://github.com/AmraleRohan41/reporting-pipeline.git'
-            }
-        }
 
         stage('Build Docker Image') {
             steps {
