@@ -19,25 +19,6 @@ The entire workflow is containerized using Docker for easy deployment and portab
 
 ---
 
-## 🏗️ Project Structure
-
-reporting-pipeline/
-│
-├── app/
-│   ├── report_gen.py
-│   ├── config.py
-│   └── utils.py
-│
-├── requirements.txt
-├── Dockerfile
-├── Jenkinsfile
-├── .env.example
-├── README.md
-└── .gitignore
-
-
----
-
 ## ⚙️ Prerequisites
 
 Make sure you have:
