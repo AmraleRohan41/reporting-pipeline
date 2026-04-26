@@ -35,11 +35,11 @@ Make sure you have:
 
 Create a `.env` file:
 
-AWS_ACCESS_KEY_ID=your_access_key
-AWS_SECRET_ACCESS_KEY=your_secret_key
-AWS_REGION=ap-south-1
-S3_BUCKET_NAME=your_bucket_name
-SENDER_EMAIL=your_verified_email
+AWS_ACCESS_KEY_ID=your_access_key, 
+AWS_SECRET_ACCESS_KEY=your_secret_key, 
+AWS_REGION=ap-south-1, 
+S3_BUCKET_NAME=your_bucket_name, 
+SENDER_EMAIL=your_verified_email, 
 RECEIVER_EMAIL=receiver_email
 
 ---
