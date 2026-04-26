@@ -7,7 +7,7 @@ pipeline {
         EMAIL_FROM = credentials('email_from')
         EMAIL_TO = credentials('email_to')
         AWS_REGION = "us-east-1"
-        AWS_BUCKET_NAME = "devops-report-bucket-001"
+        AWS_BUCKET_NAME = "demo-report-bucket-12345"
     }
 
     stages {
